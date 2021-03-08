@@ -1,0 +1,16 @@
+{
+  "name": "netpad",
+  "version": "1.0.0",
+  "description": "Share keyboard inputs between 2 or more computers.",
+  "main": "index.js",
+  "scripts": {
+    "runclient": "node client.js",
+    "hostserver": "node server.js"
+  },
+  "author": "Sammwy <sammwy.dev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "iohook": "^0.6.1",
+    "node-gyp": "^6.0.0"
+  }
+}
